@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Translate slide presentation in DocOnce to various formats:
+# reveal.js, deck.js, HTML, Remark, and LaTeX/Beamer.
+#
 name=AE_presentation_template
 #name=tmp
 
