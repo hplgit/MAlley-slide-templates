@@ -4,8 +4,8 @@ This repository contains slide templates for Michael Alley's famous
 *assertion-evidence* slide style design. This effective slide design
 is described in the book [The Craft of Scientific Presentations: Critical Steps to Succeed and Critical Errors to Avoid](http://www.amazon.com/Craft-Scientific-Presentations-Critical-Succeed/dp/1441982787/ref=sr_1_fkmr0_1?ie=UTF8&qid=1428766493&sr=8-1-fkmr0&keywords=the+cract+of+scientific+presentations), by Michael Alley, Springer, 2nd edition, 2013.
 
-<!-- <img src="doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover.png" width=150> -->
-![](doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover.png)
+<!-- <img src="doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover_small.png" width=150> -->
+![](doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover_small.png)
 
 > Simply copy the slide template for the slide format you want to use,
 > give the file a proper name, and fill in your own content.
@@ -85,11 +85,17 @@ advantages:
  * easy to generate slides from text (papers, books)
  * easy to change notation, terms, etc. in a large set of slides
 
-For at least two decades, [LaTeX/Beamer](http://en.wikipedia.org/wiki/Beamer_(LaTeX)) has been a dominating tool for writing slides with mathematics and
-computer code. Recently, LaTeX/Beamer has experienced considerable
-competition from [reveal.js](http://lab.hakim.se/reveal-js/#/) and
-to some extent [deck.js](http://imakewebthings.com/deck.js/). Both
-these tools are based on modern HTML5 and CSS technology and combines
-in some way the strength for mathematics and computer code from LaTeX/Beamer
-with the visual appearance of PowerPoint, Keynote, and Google Presenter.
+For at least two decades, [LaTeX/Beamer](http://en.wikipedia.org/wiki/Beamer_(LaTeX)) has been a dominating
+tool for writing slides with mathematics and computer code. Recently,
+LaTeX/Beamer has experienced considerable competition from
+[reveal.js](http://lab.hakim.se/reveal-js/#/) and to some extent
+[deck.js](http://imakewebthings.com/deck.js/). Both these tools are
+based on modern HTML5 and CSS technology and combines in some way the
+strength for mathematics and computer code from LaTeX/Beamer with the
+visual appearance of PowerPoint, Keynote, and Google Presenter.
+Especially in more mathematically or computer science oriented
+communities, there is significant use of LaTeX/Beamer and reveal.js,
+with the Markdown-based Remark tool as a new interesting alternative
+coming up (Markdown-based tools are gaining increasing popularity in
+general).
 
