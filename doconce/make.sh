@@ -24,13 +24,13 @@ system doconce format html $name --pygments_html_style=native --keep_pygments_ht
 system doconce slides_html $html reveal --html_slide_theme=simple
 # Crank up the font for code:
 #doconce replace 'pre style="' 'pre style="font-size: 120%; ' $html.html
-cp -r $html.html ._${html}*.html fig-talk reveal.js ../html5
+cp -r $html.html fig-talk reveal.js ../html5
 
 # deck.js
-html=${name}-deck
-system doconce format html $name --pygments_html_style=perldoc --keep_pygments_html_bg --html_links_in_new_window --html_output=$html
-system doconce slides_html $html deck --html_slide_theme=sandstone.default
-cp -r $html.html ._${html}*.html deck.js ../html5
+html=${name}-deck-beige
+doconce format html $name --pygments_html_style=perldoc --keep_pygments_html_bg --html_links_in_new_window --html_output=$html
+doconce slides_html $html deck --html_slide_theme=sandstone.default
+cp -r $html.html deck.js ../html5
 
 # Plain HTML documents, one big slide (fine for browsing)
 html=${name}-solarized
@@ -42,6 +42,7 @@ cp -r $html.html ._${html}*.html fig-talk ../html
 system doconce format pandoc $name --github_md
 system doconce slides_markdown $name remark --slide_theme=light
 cp $name.html ../html/${name}-remark.html
+cp $name.md ../html/${name}.md
 
 # LaTeX Beamer slides
 beamertheme=red_shadow
