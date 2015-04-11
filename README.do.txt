@@ -1,4 +1,4 @@
-======= MichaelAlley-slides-styles =======
+======= MAlley-slides-templates =======
 
 This repository contains slide templates for Michael Alley's famous
 *assertion-evidence* slide style design. This effective slide design
