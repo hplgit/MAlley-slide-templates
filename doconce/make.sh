@@ -50,4 +50,4 @@ system doconce slides_beamer $name --beamer_slide_theme=$beamertheme
 cp $name.tex ${name}-beamer.tex
 system pdflatex -shell-escape ${name}-beamer
 system pdflatex -shell-escape ${name}-beamer
-cp $name.pdf ../beamer
+cp ${name}-beamer.pdf ../beamer
