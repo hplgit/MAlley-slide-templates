@@ -33,6 +33,7 @@ The slide template comes in several formats:
  * [LaTeX Beamer slides](https://github.com/hplgit/MAlley-slide-templates/blob/master/beamer/AE_presentation_template-beamer.pdf), [view](http://hplgit.github.io/MAlley-slide-templates/beamer/AE_presentation_template-beamer.pdf)
  * [Remark slides](https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-remark.html), [view](http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-remark.html)
  * [Plain HTML slides, solarized colors](https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-solarized.html), [view](http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-solarized.html)
+ * [DocOnc slides](https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt), translates to HTML, Beamer, Remark as above
 
 ### Brief description of formats
 
@@ -46,26 +47,24 @@ to graphically move them the way you want.
 For slides with much mathematics and computer code, the support in interactive
 tools is modest. There are LaTeX-based equation editors for PowerPoint and
 LibreOffce, but they are tedious to use for large amounts of formulas.
-Another solution is to convert each formula to an online picture using
+Another (and often better)
+solution is to convert each formula to an online picture using
 <http://www.codecogs.com/latex/eqneditor.php>. Here you can copy
 and paste existing formulas from LaTeX documents.
 Computer code is not well supported in interactive tools.
 Syntax highlighting is impossible and you are left with setting the
-code in monospace font. Consequently, slides with much mathemtics and
+code in monospace font manually. Consequently, slides with much mathemtics and
 computer code look better in markup languages like LaTeX/Beamer,
 HTML5, or Remark.
 
-Tools for interactive slide design include [Microsoft PowerPoint](http://en.wikipedia.org/wiki/Microsoft_PowerPoint), Apple's "Keynote":, and
+Tools for interactive slide design include [Microsoft PowerPoint](http://en.wikipedia.org/wiki/Microsoft_PowerPoint), Apple's [Keynote](http://en.wikipedia.org/wiki/Keynote_(presentation_software)), and
 [Google Presenter](http://computers.tutsplus.com/tutorials/getting-started-with-google-slides--cms-21359) (Google slides). The latter is very easy to
-use and features tools for online collaboration, though PowerPoint and Keynote
+use and has recently become very popular because of its features
+for online collaboration, though PowerPoint and Keynote
 are technically more advanced tools than Google Presenter.
 
 
-<iframe width="640" height="365" src="https://www.youtube.com/embed/RrpjzquqUIo" frameborder="0" allowfullscreen></iframe>
-
-<p><em>Google presentation tutorial</em></p>
-
-
+[Google Presenter video](https://www.youtube.com/watch?v=RrpjzquqUIo] Google presentation tutorial)
 
 #### Markup-based slide tools
 
@@ -75,14 +74,16 @@ Instead of (e.g.) clicking on an italic button
 to get italic text, one writes in plain text `<em>some text</em>` in HTML,
 `\emph{some text}` in LaTeX, or
 `*some text*` in Markdown and DocOnce. The whole slide presentation is a plain
-text file with instructions. A main problem with markup languges is that you
+text file with instructions.
+
+A main problem with markup languges is that you
 have much less control of where slide elements appear on the slide compared
-with the interactive, visual tools. However, markup languages have many
-advantages:
+with the interactive, visual tools. However, markup languages have some
+important advantages:
 
  * excellent support for mathematics and computer code
- * sometimes quicker writing (especially Markdown and DocOnce)
- * easy to generate slides from text (papers, books)
+ * sometimes quicker writing (especially in Markdown and DocOnce)
+ * easy to generate slides from existing papers and books
  * easy to change notation, terms, etc. in a large set of slides
 
 For at least two decades, [LaTeX/Beamer](http://en.wikipedia.org/wiki/Beamer_(LaTeX)) has been a dominating
@@ -90,12 +91,25 @@ tool for writing slides with mathematics and computer code. Recently,
 LaTeX/Beamer has experienced considerable competition from
 [reveal.js](http://lab.hakim.se/reveal-js/#/) and to some extent
 [deck.js](http://imakewebthings.com/deck.js/). Both these tools are
-based on modern HTML5 and CSS technology and combines in some way the
+based on modern HTML5 and CSS technology and combine in some way the
 strength for mathematics and computer code from LaTeX/Beamer with the
 visual appearance of PowerPoint, Keynote, and Google Presenter.
 Especially in more mathematically or computer science oriented
 communities, there is significant use of LaTeX/Beamer and reveal.js,
-with the Markdown-based Remark tool as a new interesting alternative
-coming up (Markdown-based tools are gaining increasing popularity in
-general).
+with the Markdown-based [Remark](http://remarkjs.com/#1) tool as a
+new interesting alternative coming up (Markdown-based tools are
+gaining increasing popularity in general).
+
+#### Remark
+
+The HTML, reveal.js, deck.js, Remark, and LaTeX/Beamer slides
+in this repository were all *automatically generated* from [slides
+in DocOnce format](https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt). So to write LaTeX/Beamer slides,
+one can either write directly in LaTeX markup, or one can write in
+DocOnce markup and automatically translate to LaTeX/Beamer. The advantage
+of writing on DocOnce is that one can easily generate reveal.js, deck.js, Remark, and plain HTML slides as well.
+
+#### Author
+
+The content of repository was created by Hans Petter Langtangen ([hplgit](https://github.com/hplgit)), Simula Research Laboratory and Unviersity of Oslo, Norway.
 

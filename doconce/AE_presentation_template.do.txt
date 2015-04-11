@@ -80,7 +80,7 @@ Topic 1
 
 !bslidecell 11
 FIGURE: [fig-talk/topic2, width=150]
-!
+
 # #if FORMAT in ('latex', 'pdflatex')
 \centerline{Topic 2}
 # #else
