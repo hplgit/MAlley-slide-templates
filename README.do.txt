@@ -112,4 +112,4 @@ of writing on DocOnce is that one can easily generate reveal.js, deck.js, Remark
 
 === Author ===
 
-The content of repository was created by Hans Petter Langtangen ("hplgit": "https://github.com/hplgit"), Simula Research Laboratory and Unviersity of Oslo, Norway.
+The content of repository was created by Hans Petter Langtangen ("hplgit": "https://github.com/hplgit"), Simula Research Laboratory and Unviersity of Oslo, Norway. The contents of the templates were based on slides made by Michael Alley.
