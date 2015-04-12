@@ -7,7 +7,7 @@ is described in the book [The Craft of Scientific Presentations: Critical Steps 
 <!-- <img src="doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover_small.png" width=150> -->
 ![](doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover_small.png)
 
-> Simply copy the slide template for the slide format you want to use,
+> How to use? Simply copy the slide template for the slide format you want to use,
 > give the file a proper name, and fill in your own content.
 
 
@@ -102,14 +102,24 @@ gaining increasing popularity in general).
 
 #### Remark
 
-The HTML, reveal.js, deck.js, Remark, and LaTeX/Beamer slides
-in this repository were all *automatically generated* from [slides
-in DocOnce format](https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt). So to write LaTeX/Beamer slides,
-one can either write directly in LaTeX markup, or one can write in
-DocOnce markup and automatically translate to LaTeX/Beamer. The advantage
-of writing on DocOnce is that one can easily generate reveal.js, deck.js, Remark, and plain HTML slides as well.
+The HTML, reveal.js, deck.js, Remark, and LaTeX/Beamer slides in this
+repository were all *automatically generated* from [slides in DocOnce
+format](https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt). So
+to write LaTeX/Beamer slides, one can either write directly in LaTeX
+markup, or one can write in [DocOnce markup](http://hplgit.github.io/doconce/doc/pub/slides/index.html) and
+automatically translate to LaTeX/Beamer. The advantage of writing on
+DocOnce is that one can easily generate reveal.js, deck.js, Remark,
+and plain HTML slides as well. That feature gives you the possibility to
+use Beamer for live presentations, but publish the talk online in (e.g.)
+reveal.js format.
 
 #### Author
 
 The content of repository was created by Hans Petter Langtangen ([hplgit](https://github.com/hplgit)), Simula Research Laboratory and Unviersity of Oslo, Norway. The contents of the templates were based on slides made by Michael Alley.
+
+#### How to contribute
+
+Do you see better technical solutions in some slide set? Fork the project
+and send a pull request if you implement improvements! Or make an issue about
+a question or problem setting.
 
