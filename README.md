@@ -25,7 +25,7 @@ The slide templates contains styles for
 
 The slide template comes in several formats:
 
- * PowerPoint: "folder" "https://github.com/hplgit/MAlley-slide-templates/tree/master/PowerPoint" - [download for local viewing](https://github.com/hplgit/MAlley-slide-templates/raw/master/PowerPoint/AE_presentation_template.ppt)
+ * PowerPoint: [folder](https://github.com/hplgit/MAlley-slide-templates/tree/master/PowerPoint) - [download for local viewing](https://github.com/hplgit/MAlley-slide-templates/raw/master/PowerPoint/AE_presentation_template.ppt)
  * LibreOffice: [folder](https://github.com/hplgit/MAlley-slide-templates/tree/master/LibreOffice), [download for local viewing](https://github.com/hplgit/MAlley-slide-templates/raw/master/LibreOffice/AE_presentation_template.odp)
  * Keynote: [folder](https://github.com/hplgit/MAlley-slide-templates/tree/master/Keynote/AE_presentation_template.key) - [download for local viewing](https://github.com/hplgit/MAlley-slide-templates/archive/master.zip)
  * Google Presenter: [folder](https://github.com/hplgit/MAlley-slide-templates/tree/master/Google%20Presenter) - [download](https://raw.githubusercontent.com/hplgit/MAlley-slide-templates/master/Google%20Presenter/AE_presentation_template.gslides)
