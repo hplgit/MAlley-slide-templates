@@ -5,7 +5,7 @@
 ======= MAlley-slides-templates =======
 
 This repository contains slide templates for Professor Michael Alley's famous
-*assertion-evidence* slide design. This effective slide style
+*assertion-evidence* slide design. This effective communication style
 is described in the book "The Craft of Scientific Presentations: Critical Steps to Succeed and Critical Errors to Avoid": "http://www.amazon.com/Craft-Scientific-Presentations-Critical-Succeed/dp/1441982787/ref=sr_1_fkmr0_1?ie=UTF8&qid=1428766493&sr=8-1-fkmr0&keywords=the+cract+of+scientific+presentations", by Michael Alley, Springer, 2nd edition, 2013.
 
 FIGURE: [doconce/fig-talk/Craft_of_Scientific_Presentations_2nd_cover_small, width=150]
@@ -17,7 +17,7 @@ give the file a proper name, and fill in your own content!
 
 ===== Template contents =====
 
-The slide templates contains styles for the
+The slide template contains styles for the
 
   * title slide
   * mapping slide
