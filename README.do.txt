@@ -25,7 +25,7 @@ The slide templates contains styles for
 The slide template comes in several formats:
 
  * PowerPoint: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/PowerPoint" - "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/PowerPoint/AE_presentation_template.ppt"
- * LibreOffice: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/LibreOffice", "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/LibreOffice/AE_presentation_template.odp"
+ * LibreOffice: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/LibreOffice" - "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/LibreOffice/AE_presentation_template.odp"
  * Keynote: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/Keynote/AE_presentation_template.key" - "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/archive/master.zip"
  * Google Presenter: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/Google%20Presenter" - "download": "https://raw.githubusercontent.com/hplgit/MAlley-slide-templates/master/Google%20Presenter/AE_presentation_template.gslides"
  * HTML5 "reveal.js": "http://lab.hakim.se/reveal-js/#/": "HTML source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html5/AE_presentation_template-reveal-white.html" - "online viewing": "http://hplgit.github.io/MAlley-slide-templates/html5/AE_presentation_template-reveal-white.html"
@@ -35,9 +35,21 @@ The slide template comes in several formats:
  * Plain HTML slides, "solarized colors": "http://ethanschoonover.com/solarized":"HTML source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-solarized.html" - "online viewing": "http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-solarized.html"
  * "DocOnc": "http://hplgit.github.io/doconce/doc/web/index.html": "DocOnce source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt", translates to HTML, Beamer, Remark as above
 
-=== How to download ===
+===== How to download =====
 
- * Binary slide files (PowerPoint, LibreOffice, Google Presenter): click *download for local viewing* and the file should download, load it into the software
+=== Download everything ===
+
+ o Either dowload "zip file": "https://github.com/hplgit/MAlley-slide-templates/archive/master.zip" (see *Download ZIP* button to the right in this view), pack
+out the `master.zip` file, or
+ o clone/fork this Git repository:
+
+!bc
+git clone git@github.com:hplgit/MAlley-slide-templates.git
+!ec
+
+=== Download the format you want ===
+
+ * Binary slide files (PowerPoint, LibreOffice, Google Presenter): click *download for local viewing* and the file should download (if not, click on *folder*, then *Raw*), load the file into the software
  * Keynote: click *download for local viewing*, pack out `master.zip` file, load `keynote/AE_presentation_template` into Keynote
  * Pure (ascii) text file slides: click on *source file*, click on *Raw*, and download that file
 
