@@ -24,15 +24,22 @@ The slide templates contains styles for
 
 The slide template comes in several formats:
 
- * "PowerPoint": "https://github.com/hplgit/MAlley-slide-templates/tree/master/PowerPoint", "download to local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/PowerPoint/AE_presentation_template.ppt"
- * "LibreOffice": "https://github.com/hplgit/MAlley-slide-templates/tree/master/LibreOffice", "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/LibreOffice/AE_presentation_template.odp"
- * "Google Presenter": "https://github.com/hplgit/MAlley-slide-templates/tree/master/Google%20Presenter", "download": "https://raw.githubusercontent.com/hplgit/MAlley-slide-templates/master/Google%20Presenter/AE_presentation_template.gslides"
- * "HTML5 reveal.js": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html5/AE_presentation_template-reveal-white.html": "view": "http://hplgit.github.io/MAlley-slide-templates/html5/AE_presentation_template-reveal-white.html"
- * "HTML5 deck.js": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html5/AE_presentation_template-deck-beige.html", "view": "http://hplgit.github.io/MAlley-slide-templates/html5/AE_presentation_template-deck-beige.html"
- * "LaTeX Beamer slides": "https://github.com/hplgit/MAlley-slide-templates/blob/master/beamer/AE_presentation_template-beamer.pdf", "view": "http://hplgit.github.io/MAlley-slide-templates/beamer/AE_presentation_template-beamer.pdf"
- * "Remark slides": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-remark.html", "view": "http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-remark.html"
- * "Plain HTML slides, solarized colors": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-solarized.html", "view": "http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-solarized.html"
- * "DocOnc slides": "https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt", translates to HTML, Beamer, Remark as above
+ * PowerPoint: "folder" "https://github.com/hplgit/MAlley-slide-templates/tree/master/PowerPoint" - "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/PowerPoint/AE_presentation_template.ppt"
+ * LibreOffice: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/LibreOffice", "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/raw/master/LibreOffice/AE_presentation_template.odp"
+ * Keynote: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/Keynote/AE_presentation_template.key" - "download for local viewing": "https://github.com/hplgit/MAlley-slide-templates/archive/master.zip"
+ * Google Presenter: "folder": "https://github.com/hplgit/MAlley-slide-templates/tree/master/Google%20Presenter" - "download": "https://raw.githubusercontent.com/hplgit/MAlley-slide-templates/master/Google%20Presenter/AE_presentation_template.gslides"
+ * HTML5 "reveal.js": "http://lab.hakim.se/reveal-js/#/": "HTML source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html5/AE_presentation_template-reveal-white.html" - "online viewing": "http://hplgit.github.io/MAlley-slide-templates/html5/AE_presentation_template-reveal-white.html"
+ * HTML5 "deck.js": "http://imakewebthings.com/deck.js/": "HTML source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html5/AE_presentation_template-deck-beige.html" - "online viewing": "http://hplgit.github.io/MAlley-slide-templates/html5/AE_presentation_template-deck-beige.html"
+ * "LaTeX Beamer": "http://en.wikipedia.org/wiki/Beamer_(LaTeX)": "LaTeX source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/beamer/AE_presentation_template-beamer.tex" - "online viewing": "http://hplgit.github.io/MAlley-slide-templates/beamer/AE_presentation_template-beamer.pdf"
+ * "Remark": "http://remarkjs.com/#1": "Markdown source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-remark.md", "online viewing": "http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-remark.html"
+ * Plain HTML slides, "solarized colors": "http://ethanschoonover.com/solarized":"HTML source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/html/AE_presentation_template-solarized.html" - "online viewing": "http://hplgit.github.io/MAlley-slide-templates/html/AE_presentation_template-solarized.html"
+ * "DocOnc": "http://hplgit.github.io/doconce/doc/web/index.html": "DocOnce source file": "https://github.com/hplgit/MAlley-slide-templates/blob/master/doconce/AE_presentation_template.do.txt", translates to HTML, Beamer, Remark as above
+
+=== How to download ===
+
+ * Binary slide files (PowerPoint, LibreOffice, Google Presenter): click *download for local viewing* and the file should download, load it into the software
+ * Keynote: click *download for local viewing*, pack out `master.zip` file, load `keynote/AE_presentation_template` into Keynote
+ * Pure (ascii) text file slides: click on *source file*, click on *Raw*, and download that file
 
 ===== Brief description of formats =====
 
