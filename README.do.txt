@@ -52,7 +52,7 @@ git clone git@github.com:hplgit/MAlley-slide-templates.git
 
 === Download the format you want ===
 
- * Binary slide files (PowerPoint, LibreOffice, Google Presenter): click *download for local viewing* and the file should download (if not, click on *folder*, then *Raw*), load the file into the software
+ * Binary slide files (PowerPoint, LibreOffice, Google Presenter): click *download for local viewing* and the file should download (if not, click on *folder*, then on the file, then on *Raw*, and if necessary, right-click to download the page), load the file into the software
  * Keynote: click *download for local viewing*, pack out `master.zip` file, load `keynote/AE_presentation_template` into Keynote
  * Pure (ascii) text file slides (reveal.js, deck.js, LaTeX Beamer, HTML, Remark, DocOnce): click on *source file*, click on *Raw*, and download that file
 
