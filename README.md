@@ -1,4 +1,4 @@
-## MAlley-slides-templates
+## MAlley-slide-templates
 
 This repository contains slide templates for Professor Michael Alley's famous
 *assertion-evidence* slide design. This effective communication style

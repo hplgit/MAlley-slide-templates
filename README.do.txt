@@ -2,7 +2,7 @@
 ## DocOnce markup. Use the script README.sh to translate to Markdown
 ## for viewing on GitHub.
 
-======= MAlley-slides-templates =======
+======= MAlley-slide-templates =======
 
 This repository contains slide templates for Professor Michael Alley's famous
 *assertion-evidence* slide design. This effective communication style
