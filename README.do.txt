@@ -143,6 +143,8 @@ reveal.js format.
 
 The content of this repository was created by Hans Petter Langtangen ("hplgit": "https://github.com/hplgit"), Simula Research Laboratory and Unviersity of Oslo, Norway. Please send comments on typos or improvements in this description to him at "hpl@simula.no": "mailto:hpl@simula.no". All templates are based on PowerPoint slides made by Professor Michael Alley.
 
+FIGURE: [doconce/fig-talk/simula_logo, width=200]
+
 === How to contribute ===
 
 Do you see better technical solutions in some slide set? Fork the project
